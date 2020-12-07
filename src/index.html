@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
+    <section class="big-title">
+        <div class="container">
+            <div class="big-title__block">
+                <h1>5-Day Forecast.</h1>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="location">
+            Kazan, RUS
+        </div>
+        <div class="form-wrapper">
+            <form action="#">
+                    <input type="radio" name="input-radio" id="radio-one" checked>
+                    <label for="radio-one">Celsius</label>
+                    <input type="radio" name="input-radio" id="radio-two">
+                    <label for="radio-two">Farenheit</label>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
